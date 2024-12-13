@@ -4,7 +4,7 @@
 
 This project implements a client-server architecture for an e-commerce platform called AUBoutique. It allows users to register, login, view products, add products, buy products, view buyers of products, text with another user, search products, rate products, and view best sellers. This system is composed of two parts: 
 1. Server: The server handles client requests, manages the database, and helps the communication between clients. 
-2. Client: The client is the one interacting with the system and requesting certain actions to be performed. 
+2. Client: The client is the one interacting with the system and requesting certain actions to be performed through the GUI. 
 
 It is important to note that SQLite database is used in this project to store the user's data (username, password, products, messages,...). The server automatically creates "auboutique.db" database. 
 
@@ -38,4 +38,4 @@ Running the project requires Python version 3 (Python 3.x) and the following lib
   - json (for json messages and their encoding and decoding) 
   - threading (to handle multiple client connections)
   - sqlite3 (for server database)
-  - PyQt5: for the GUI
+  - PyQt5 (for the GUI)
